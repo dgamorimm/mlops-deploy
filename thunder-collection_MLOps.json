@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "MLOps",
+    "dateExported": "2023-10-02T21:09:39.091Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "579a0bde-1874-4512-93d6-8ccba876755a",
+            "colId": "7cbdf0fe-d8a8-426a-b17d-df80c1b6726b",
+            "containerId": "",
+            "name": "Sentimento",
+            "url": "http://localhost:5000/sentimento/Python é ótimo para aprender a sua primeira liguagem de programação",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-10-02T19:43:34.068Z",
+            "modified": "2023-10-02T21:09:23.330Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "auth": {
+                "type": "basic",
+                "basic": {
+                    "username": "douglas",
+                    "password": "123456"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "7c2bbbb6-21bc-4c32-915d-ce4cbece19b8",
+            "colId": "7cbdf0fe-d8a8-426a-b17d-df80c1b6726b",
+            "containerId": "",
+            "name": "Cotação",
+            "url": "http://localhost:5000/cotacao/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-10-02T19:43:56.926Z",
+            "modified": "2023-10-02T20:14:48.017Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Ano\": 2001, \n  \"Tamanho\": 120, \n  \"Garagem\": 2\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
